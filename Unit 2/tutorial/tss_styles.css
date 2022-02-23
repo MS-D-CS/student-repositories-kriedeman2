@@ -64,19 +64,19 @@ aside {
 }
 
 aside blockquote{
-   color: rgb(232, 165, 116)
+   color: rgb(232, 165, 116);
    margin: 20px 5px;
    quotes: "\201c" "\201d";
 }
 
-aside blockquote: :before {
+aside blockquote:before {
    content: open-quote;
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.6em;
    font-weight: bold;
 }
 
-aside blockquote: :after {
+aside blockquote:after {
    content: close-quote;
    font-family: 'Times New Roman', Times,serif;
    font-size: 1.6em;
