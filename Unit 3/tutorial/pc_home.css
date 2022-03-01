@@ -78,9 +78,13 @@ footer {
    clear: left;
 }
 
-footer: :
+footer: :after {
+   clear: both;
+   content: "";
+   display: table;
+}
 
-footer {
+footer > nav.verticalNavigation {
    float: left;
    width: 22%
 }
