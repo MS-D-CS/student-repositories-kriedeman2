@@ -78,7 +78,7 @@ footer {
    clear: left;
 }
 
-footer: :after {
+footer :after {
    clear: both;
    content: "";
    display: table;
