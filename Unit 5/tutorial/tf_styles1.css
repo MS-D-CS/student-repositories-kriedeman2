@@ -143,6 +143,7 @@ body > footer {
    padding: 10px 0px;
 }
 
+
 /* Pulldown Menu Styles */
 
 
@@ -151,3 +152,26 @@ body > footer {
 /* New Styles Added Below */
 
 
+/* ==============================
+   Mobile Style: opx - 480px
+   ==============================
+*/
+@media oly screen and (max-width: 480px) {
+
+}
+
+/* ==============================
+   Mobile Style: 481px and greater
+   ==============================
+*/
+@media only screen and (min-widht:481px) {
+
+}
+
+/* ==============================
+   desktop styles: 769px and greater
+   ==============================
+*/
+@media only screen and (min-width: 769px) {
+   
+}
