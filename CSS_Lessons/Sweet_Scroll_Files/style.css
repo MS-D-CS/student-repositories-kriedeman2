@@ -37,10 +37,10 @@ h3 {
 }
 
 .ktichen-equipment{
-  background-image: url(utensils.JPG);
+  background-image: url('utensils.JPG');
 }
 .cake-ingredients{
-  background-image: url("ingredients.jog");
+  background-image: url("ingredients.jpg");
 }
 .baking-instructions{
   background-image: url("oven.jpg");
