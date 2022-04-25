@@ -56,13 +56,13 @@
       <fieldset id="custInfo">
          <legend>Customer Info</legend>
          <label for="name">Name*</label>  
-         <input name="custName" id="name" type="text" />
+         <input name="custName" id="name" type="text" placeholder="first name last name"/>
          <label for="Street">Street address</label>
          <input name="custStreet" id="street" type="text" />
          <label for="city">City</label>
-         <input name="custcity" id="City" type="text" />
+         <input name="custcity" id="City" type="text" value="Ormond Beach" />
          <label for="state">State</label>
-         <input name="custState" id="State" type="text" />
+         <input name="custState" id="State" type="text" value="FL" />
          <label for="zip">Postal code</label>
          <input name="custZip" id="Zip" type="text" />
          <label for="phone">Phone number</label>
@@ -70,11 +70,62 @@
          <label for="mail">E-mail*</label>
          <input name="custEmail" id="Email" type="text" />
 
+         <input name=”mailMe” id=”mailCB” value=”yes” type=”checkbox” /> 
+         <label for=”mailCB”>Add me to your mailing list for great coupons and specials!</label> 
+
 
 
 
       </fieldset>
       <fieldset id="expInfo"></fieldset>
+      <div class=”formRow”>
+         <label for=”visit”>Date of visit</label> 
+         <input name=”visitDate” id=”visit” type=”date” /> 
+      </div> 
+         <div class=”formRow”>
+            <label for=”order”>Order type</label> 
+            <select name=”orderType” id=”order”> 
+            <option value=”order1”>Carry out</option> 
+            <option value=”order2”>Delivery</option> 
+            <option value=”order3” selected>Dine in</option> 
+            <option value=”order4”>Take 'n bake</option> 
+            </select> 
+            </div> 
+            <div class=”formRow”> 
+               <label for=”info”>Where did you hear about us? 
+               <br />(select all that apply) 
+               </label> 
+               <select name=”infoSrc” id=”info” size=”5” multiple> 
+               <option value=”internet”>Internet</option> 
+               <option value=”mag”>Magazine</option> 
+               <option value=”news”>Newspaper</option> 
+               <option value=”word”>Word of Mouth</option> 
+               <option value=”other”>Other</option> 
+               </select> 
+            </div> 
+               <div class=”formRow”> 
+                  <label>Was your order correct?</label> 
+                  <fieldset class=”optGroup”>
+                  <label for=”cYes”>Yes</label> 
+                  <input name=”oCorrect” id=”cYes” value=”yes” 
+                  type=”radio” /> 
+                  <label for=”cNo”>No</label> 
+                  <input name=”oCorrect” id=”cNo” value=”no” 
+                  type=”radio” /> 
+                  </fieldset> 
+               </div> 
+               <div class=”formRow”>
+                  <label>Was your food hot?</label> 
+                  <fieldset class=”optGroup”> 
+                  <label for=”hYes”>Yes</label> 
+                  <input name=”foodHot” id=”hYes” value=”yes” 
+                  type=”radio” /> 
+                  <label for=”hNo”>No</label> 
+                  <input name=”foodHot” id=”hNo” value=”no” 
+                  type=”radio” /> 
+                  </fieldset> 
+                  </div> 
+
 
      </form>
    </section>
